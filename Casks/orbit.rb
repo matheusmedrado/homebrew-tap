@@ -12,8 +12,8 @@ cask "orbit" do
   app "Orbit.app"
 
   # Orbit isn't notarized, so clear the download quarantine flag.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Orbit.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Orbit.app"]
   end
 
   uninstall quit: "com.matheusmedrado.orbit"
