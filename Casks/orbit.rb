@@ -7,7 +7,7 @@ cask "orbit" do
   desc "Claude and Codex usage limits in the menu bar"
   homepage "https://github.com/matheusmedrado/orbit"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Orbit.app"
 
