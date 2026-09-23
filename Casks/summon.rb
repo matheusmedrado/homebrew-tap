@@ -1,6 +1,6 @@
 cask "summon" do
-  version "1.0.0"
-  sha256 "05772671e8f699517b139d92df7823b49dd4875e4ad1405bb215be304d39f764"
+  version "1.0.1"
+  sha256 "10beb9e7bab071dfec405a04ef09ea99cbc08df3644262559c7ca3250042c358"
 
   url "https://github.com/matheusmedrado/summon/releases/download/v#{version}/Summon-#{version}.dmg"
   name "Summon"
