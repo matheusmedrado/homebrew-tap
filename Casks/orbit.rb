@@ -1,6 +1,6 @@
 cask "orbit" do
-  version "1.1.0"
-  sha256 "a4ad5a0d03ed21f4f4b1794c60607bd49fe7710e31c75b496885efdc78a79b48"
+  version "1.1.1"
+  sha256 "690ab5cc536a06ccc90d2afb152a11b6eabf36fa1bb70ad18994fbc903924ed6"
 
   url "https://github.com/matheusmedrado/orbit/releases/download/v#{version}/Orbit-#{version}.dmg"
   name "Orbit"
